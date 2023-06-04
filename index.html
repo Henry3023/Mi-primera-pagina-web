@@ -1,29 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ejemplo de HTML y CSS</title>
+  <title>Mi Portafolio Personal</title>
+  <style>
+    /* Estilos para el encabezado */
+    header {
+    background-color: #8DB4E2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+
+    header img {
+    width: 200px; /* Cambia el valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    }
+
+    h1 {
+    font-size: 24px;
+    }
+
+    /* Estilos para las secciones */
+    section {
+    margin-bottom: 20px;
+    }
+
+    h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    }
+
+    ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+    li {
+    margin-bottom: 5px;
+    }
+
+    h3 {
+    font-size: 18px;
+    color: #333;
+    }
+
+    p {
+    color: #666;
+    }
+
+    /* Estilos para el pie de página */
+    footer {
+    background-color: #4BACC6;
+    padding: 10px;
+    text-align: center;
+    }
+
+  </style>  
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Mi Página Web</h1>
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Logo">
+    <h1>Henry Rueda</h1>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <h2>Bienvenido</h2>
-    <p>¡Hola! Esta es mi página web de ejemplo.</p>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Henry Rueda, un programador web apasionado por convertir ideas en código eficiente y atractivo. Tengo experiencia en el desarrollo de aplicaciones y sitios web, y me especializo en HTML, CSS y JavaScript.</p>
+    </section>
+
+    <section>
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li>
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto 1.</p>
+        </li>
+        <li>
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve del proyecto 2.</p>
+        </li>
+        <!-- Agrega más proyectos según sea necesario -->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <!-- Agrega más habilidades según sea necesario -->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experiencia Laboral</h2>
+      <h3>Empresa XYZ</h3>
+      <p>Descripción de tus responsabilidades y logros en la Empresa XYZ.</p>
+
+      <h3>Otra Empresa</h3>
+      <p>Descripción de tus responsabilidades y logros en Otra Empresa.</p>
+      <!-- Agrega más experiencias laborales según sea necesario -->
+    </section>
+
   </main>
 
   <footer>
-    <p>Derechos de autor &copy; 2023</p>
+    <p>Derechos de autor &copy; 2023 | Henry Rueda</p>
   </footer>
 </body>
 </html>
